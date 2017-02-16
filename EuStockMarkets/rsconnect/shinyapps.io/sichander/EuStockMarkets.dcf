@@ -1,0 +1,10 @@
+name: EuStockMarkets
+title: EuStockMarkets
+account: sichander
+server: shinyapps.io
+appId: 157253
+bundleId: 713735
+url: https://sichander.shinyapps.io/EuStockMarkets/
+when: 1487238433.74303
+asMultiple: FALSE
+asStatic: FALSE
