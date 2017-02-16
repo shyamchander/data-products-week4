@@ -1,0 +1,39 @@
+EU Stock Market App (1991-1998)
+========================================================
+author: Shyam Chander
+date: 10th Feb 2016
+autosize: true
+font-import: http://fonts.googleapis.com/css?family=Roboto
+font-family: 'Roboto'
+
+App Details
+========================================================
+
+This application allows user to plot the EU Stock Market Daily end of maket trends by varying the year range and indices.
+
+- Github repository: https://github.com/shyamchander/data-products-week4
+- Shiny App Published: https://sichander.shinyapps.io/EuStockMarkets/
+
+Source: The data were kindly provided by Erste Bank AG, Vienna, Austria.
+
+Complete Dataset Summary
+========================================================
+
+```{r}
+summary(EuStockMarkets)
+```
+
+Complete Dataset Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(EuStockMarkets)
+```
+
+User Interactions 
+========================================================
+
+This application allows user to plot the EU Stock Market Daily end of maket trends by varying the year range and indices.
+
+- User can select the indices to generate plot and summary for out of the available 4 indices (DAX,SMI,CAC,FTSE)
+- User can select year range from within the dataset (1991-1998) and changes are reflected in the plots and summary
